@@ -1,3 +1,8 @@
+
+# Learnosity Demo Application
+
+This application wilol help to integrate learnosity integration in your Angular application using node.js ad a middleware.
+
 # LearnosityDemo
 
 <a href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
