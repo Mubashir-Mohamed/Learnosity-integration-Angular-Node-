@@ -1,0 +1,11 @@
+<div *ngIf="!isloadAssesment">
+<h1>Assessments</h1>
+<button class="button-27" role="button" [routerLink]="['/assesment', '3bcd2221-9ab9-4906-9b4b-5e6f0852d32a']">Assesment 1</button>
+<button class="button-27" role="button" (click)="getActivity()">Get Activity List</button>
+<ul class="check-list" *ngFor="let item of items;index as i">
+    <li>
+        <span (click)="loadAssesment(item.data.items)">{{item?.title || 'Assesment ' + i }}</span>&nbsp;
+    </li>
+</ul>
+</div>
+<div id="learnosity_assess" *ngIf="isloadAssesment"></div>

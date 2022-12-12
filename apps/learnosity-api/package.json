@@ -1,0 +1,25 @@
+{
+    "name": "learnosity-api",
+    "version": "1.0.0",
+    "description": "Test NodeJS sdk",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon ./app.js localhost 3080"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "ejs": "^2.5.7",
+        "express": "^4.16.2",
+        "form-data": "^4.0.0",
+        "learnosity-sdk-nodejs": "github:Learnosity/learnosity-sdk-nodejs",
+        "node-fetch": "^2.6.6",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
